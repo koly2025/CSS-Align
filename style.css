@@ -1,0 +1,49 @@
+/* Align.css */
+
+/* 1. Center text horizontally */
+.center-text {
+    text-align: center;
+}
+
+/* 2. Align elements vertically in a container (Flexbox) */
+.container-flex {
+    display: flex;
+    align-items: center; /* Aligns vertically to the center */
+    justify-content: center; /* Aligns horizontally to the center */
+    height: 100vh; /* Full viewport height */
+}
+
+/* 3. Align items in a Flexbox container horizontally */
+.flex-start {
+    display: flex;
+    justify-content: flex-start; /* Aligns to the start of the container */
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end; /* Aligns to the end of the container */
+}
+
+/* 4. Vertical alignment using vertical-align (inline or inline-block elements) */
+.vertical-align {
+    vertical-align: middle; /* Aligns vertically in the middle of a line */
+}
+
+/* 5. Align last line of a block of text (text-align-last) */
+.align-last {
+    text-align: justify;
+    text-align-last: center; /* Centers the last line of text */
+}
+
+/* 6. Align elements using align-self in Flexbox */
+.align-self-center {
+    display: flex;
+    align-self: center; /* Aligns a specific item to the center */
+}
+
+/* 7. Align multiple lines of items (align-content) */
+.align-content-center {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center; /* Aligns rows of items to the center */
+}
